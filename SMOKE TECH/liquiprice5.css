@@ -1,0 +1,180 @@
+
+#menu1 ul
+{
+position: absolute;
+margin: 0;
+padding: 0;
+top: 30px;
+left: 460px;
+list-style-type: none;
+text-align:center; 
+font-size: 18px;
+z-index:4;
+}
+
+#menu1 ul li { display: inline; }
+
+#menu1 ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: red;
+background-color: black;
+}
+
+#menu1 ul li a:hover
+{
+color:black;
+background-color:d8d8d8;
+
+}
+
+#middlebg
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	padding-left:228px;
+	padding-top:0px;
+	width: 9000px;
+	height:0px;
+	z-index: 2;
+	opacity:0.4;
+}
+
+#bg
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	padding-left:25px;
+	padding-top:85px;
+	width: 1000px;
+	height:0px;
+	z-index: 2;
+}
+#texto
+{
+position:absolute;
+top:170;
+left:710;
+background-color: #dcdcdc;
+font-family: georgia;
+font-size:19px;
+width:400;
+height:280;
+z-index: 200;
+color:black;
+opacity: 0.9;
+padding-left: 10px;
+line-height:50px;
+
+}
+#texto ul
+{
+position:absolute;
+top:-20;
+left:-3;
+width:368;
+height:278;
+border-style: solid;
+border-color: red ;
+
+}
+
+#texto2
+{
+position:absolute;
+top:360;
+left:990;
+
+font-family: georgia;
+font-size:27px;
+width:400;
+height:280;
+z-index: 250;
+color:white;
+
+padding-left: 10px;
+line-height:50px;
+}
+
+
+
+#foto1
+{
+	position: absolute;
+	top: 10px;
+	left:65px;
+	padding-left: 0px;
+	width: 2000px;
+	height:0px;
+	z-index: 1500;
+}
+#foto2
+{
+	position: absolute;
+	top: 50px;
+	left:280px;
+	padding-left: 0px;
+	width: 4000px;
+	height:0px;
+	z-index: 1;
+
+}
+#foto3
+{
+	position: absolute;
+	top: 320px;
+	left: 970px;
+	width: 150px;
+	height: 100px;
+	z-index: 205;
+}
+#foto4
+{
+	position: absolute;
+	top: 195px;
+	left: 340px;
+	width: 150px;
+	height: 100px;
+	z-index: 205;
+}
+
+#foto5a
+{
+	position: absolute;
+	top: 100px;
+	left: 360px;
+	width: 150px;
+	height: 100px;
+	z-index: 205;
+}
+
+
+
+
+#cl3
+{
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	font-family: old english;
+
+	font-size:32px;
+	color: yellow;
+	width: 170px;
+	height: 100px;
+	z-index: 16;
+}
+
+#cl4
+{
+	position: absolute;
+	background-color: white;
+	top: 23px;
+	left: 457px;
+	width: 530px;
+	height: 33px;
+	z-index: 3;
+}

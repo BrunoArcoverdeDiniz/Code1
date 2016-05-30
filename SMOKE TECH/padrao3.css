@@ -1,0 +1,331 @@
+
+#menu1 ul
+{
+position: absolute;
+margin: 0;
+padding: 0;
+top: 30px;
+left: 460px;
+list-style-type: none;
+text-align:center; 
+font-size: 18px;
+z-index:4;
+}
+
+#menu1 ul li { display: inline; }
+
+#menu1 ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: red;
+background-color: black;
+}
+
+#menu1 ul li a:hover
+{
+color:black;
+background-color:d8d8d8;
+
+}
+
+#bg1
+{
+	position: absolute ;
+	top: 30px;
+	left:0px;
+	padding-left: 0px;
+	padding-top: 60px;
+	width: 1000px;
+	height:0px;
+	z-index: 300;
+}
+#middlebg
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	padding-left:228px;
+	padding-top:0px;
+	width: 9000px;
+	height:0px;
+	z-index: 2;
+	opacity:0.4;
+}
+
+#bg
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	padding-left:25px;
+	padding-top:85px;
+	width: 1000px;
+	height:0px;
+	z-index: 2;
+}
+
+#foto1
+{
+	position: absolute;
+	top: 10px;
+	left:65px;
+	padding-left: 0px;
+	width: 2000px;
+	height:0px;
+	z-index: 15;
+}
+#foto2
+{
+	position: absolute;
+	top: 270px;
+	left: 350px;
+	width: 150px;
+	height: 100px;
+	z-index: 201;
+}
+#foto3
+{
+	position: absolute;
+	top: 105px;
+	left: 610px;
+	width: 150px;
+	height: 100px;
+	z-index: 205;
+}
+#foto4
+{
+	position: absolute;
+	top: 150px;
+	left: 360px;
+	width: 150px;
+	height: 100px;
+	z-index: 205;
+}
+
+#foto5
+{
+	position: absolute;
+	top: 120px;
+	left: 950px;
+	width: 150px;
+	height: 100px;
+	z-index: 205;
+}
+
+#foto6
+{
+	position: absolute;
+	top: 350px;
+	left: 950px;
+	width: 150px;
+	height: 100px;
+	z-index: 205;
+}
+#foto7
+{
+	position: absolute;
+	top: 395px;
+	left: 650px;
+	width: 150px;
+	height: 100px;
+	z-index: 205;
+}
+
+#foto8
+{
+	position: absolute;
+	top: 500px;
+	left: 280px;
+	width: 150px;
+	height: 100px;
+	z-index: 202;
+}
+#foto9
+{
+	position: absolute;
+	top: 120px;
+	left: 900px;
+	width: 150px;
+	height: 100px;
+	z-index: 20;
+}
+#foto10
+{
+	position: absolute;
+	top: 430px;
+	left: 730px;
+	width: 150px;
+	height: 100px;
+	z-index: 1000;
+}
+#foto11
+{
+	position: absolute;
+	top: 400px;
+	left: 1100px;
+	width: 150px;
+	height: 100px;
+	z-index: 1000;
+}
+#foto12
+{
+	position: absolute;
+	top: 365px;
+	left: 360px;
+	width: 150px;
+	height: 100px;
+	z-index: 1000;
+}
+#cl2
+{
+	position: absolute;
+	top: 320px;
+	left: 270;
+	width: 150px;
+	height: 0px;
+	z-index: 200;
+}
+#cl5
+{
+	position: absolute;
+	top: 90px;
+	left: 270px;
+	width: 150px;
+	height: 0px;
+	z-index: 200;
+}
+#cl6
+{
+	position: absolute;
+	top: 330px;
+	left: 580px;
+	width: 150px;
+	height: 0px;
+	z-index: 200;
+}
+#cl7
+{
+	position: absolute;
+	top: 50px;
+	left: 880px;
+	width: 150px;
+	height: 0px;
+	z-index: 200;
+}
+#cl8
+{
+	position: absolute;
+	top: 320px;
+	left: 880px;
+	width: 150px;
+	height: 0px;
+	z-index: 200;
+}
+
+
+#cl3
+{
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	font-family: old english;
+
+	font-size:32px;
+	color: yellow;
+	width: 170px;
+	height: 100px;
+	z-index: 16;
+}
+#cl15
+{
+	position: absolute;
+	top: 100px;
+	left: 550px;
+	font-family: old english;
+
+	font-size:32px;
+	color: yellow;
+	width: 170px;
+	height: 100px;
+	z-index: 16;
+}
+
+#cl4
+{
+	position: absolute;
+	background-color: white;
+	top: 23px;
+	left: 457px;
+	width: 530px;
+	height: 33px;
+	z-index: 3;
+}
+
+#bla
+{
+	position: absolute;
+	top: 350px;
+	left: 10px;
+	font-size: 30;
+	font-weight:500
+	font-family: arial;
+	background-color:purple;
+	color: black;
+	width: 450px;
+	height: 100px;
+	z-index:0;
+	opacity: 0.9;
+	}
+#promocao {
+
+  
+padding-left: 30px;
+padding-top: 300px;
+z-index: 3000;
+}
+
+
+.fader {
+   
+    width:    220px;
+    height:   320px;
+    display:  inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 350; 
+
+     }
+
+
+    .fader img {
+        width:       150px;
+        height:      150px;
+        line-height: 10;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition:    all 0.5s ease;
+        -o-transition:      all 0.5s ease;
+        -ms-transition:     all 0.5s ease;
+        transition:         all 0.5s ease; 
+    }
+
+    .fader img:hover {
+         opacity: 0.8;
+         width:   230px;
+         height:  250px;       
+        }
+.formclass
+{
+	padding: 100px;
+	position: absolute;
+	background-color:#E0E0E0;
+	color:#202020;
+	left: 200px;
+	width: 200px;
+	height: 400px;
+	top: 70px;
+	z-index:200px;
+	font-family: calibri;
+	font-size:12px;
+	
+	}

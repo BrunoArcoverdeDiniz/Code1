@@ -1,0 +1,75 @@
+
+#cl4
+{
+	position: absolute;
+	background-color: white;
+	top: 23px;
+	left: 468px;
+	width: 523px;
+	height: 33px;
+	z-index: 30;
+}
+#menu1 ul
+{
+position: absolute;
+margin: 0;
+padding: 0;
+top: 29px;
+left: 470px;
+list-style-type: none;
+text-align:center; 
+font-size: 18px;
+z-index:11000;
+font-family: calibri;
+}
+
+#menu1 ul li { display: inline; }
+
+#menu1 ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: red;
+background-color: black;
+}
+
+#menu1 ul li a:hover
+{
+color:black;
+background-color:#909090;
+
+}
+#bg
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	padding-left:25px;
+	padding-top:85px;
+	width: 1000px;
+	height:0px;
+	z-index: 2;
+}
+
+#foto1
+{
+	position: absolute;
+	top: 10px;
+	left:65px;
+	padding-left: 0px;
+	width: 2000px;
+	height:0px;
+	z-index: 15;
+}
+#middlebg
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	padding-left:228px;
+	padding-top:0px;
+	width: 9000px;
+	height:0px;
+	z-index: 3;
+	opacity:0.4;
+}

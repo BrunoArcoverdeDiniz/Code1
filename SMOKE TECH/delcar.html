@@ -1,0 +1,63 @@
+<html>
+<header>
+
+
+<?php include 'delcar.php';?>	
+<link rel="stylesheet" type="text/css" href="delcar.css" />  
+</header>
+
+<body>
+	
+<?php
+	$apagar = $_REQUEST['apagar'];
+
+	include "conexaoaobanco.php";
+
+	$query = "DELETE from cadastro WHERE cpf=$apagar";
+	
+	echo $query;
+	mysql_query($query, $conn);
+
+
+?><br><br><br><br>
+<?php
+	
+	$visualizar = $_REQUEST['visualizar'];
+
+	include "conexaoaobanco.php";
+
+	$query="
+	SELECT nome, sobrenome, cpf, telefone, email, endereco, cep, cidade, estado, pedido
+	FROM cadastro WHERE cpf = $visualizar" ;
+	$recordset = mysql_query($query, $conn);
+
+	$registro=mysql_fetch_assoc($recordset);
+
+	$nome = $registro["nome"];
+	$sobrenome = $registro["sobrenome"];
+	$cpf = $registro["cpf"];
+	$telefone = $registro["telefone"];
+	$email = $registro["email"]; 
+	$endereco = $registro["endereco"]; 
+	$cep = $registro["cep"];
+	$cidade = $registro["cidade"];
+	$estado = $registro["estado"]; 
+	$pedido = $registro["pedido"]; 
+	print "<br>$nome - $sobrenome - $cpf - $telefone - $email - $endereco - $cep - $cidade - $estado - $pedido<br>";
+
+
+	echo $query;
+ 	
+
+?>
+
+
+
+</body>	
+
+
+</html>
+
+
+
+

@@ -1,0 +1,242 @@
+.resizedTextbox {width: 100px; height: 20px}
+
+#logbox
+{
+position: absolute;
+z-index:3999;
+left:1200px;
+top: 8px;
+width:135px;
+height: 140px;
+background-color: white;
+opacity:0.2 ;
+border-radius: 10px;
+}
+#log
+{
+position: relative;
+z-index:4000;
+
+left:1200px;
+top: 4px;	
+color: #D6D3D3;
+padding-left: 4px;
+padding-top: 4px;
+letter-spacing: 1px;
+}
+#log ul{
+position:relative ;
+padding-top: 7px;
+padding-left: 0;
+margin: 0;
+
+}
+#menu1 ul
+{
+position: absolute;
+margin: 0;
+padding: 0;
+top: 11;
+left: 410;
+list-style-type: none;
+text-align:center; 
+font-size: 18px;
+z-index:400;
+}
+
+#menu1 ul li { display: inline; }
+
+#menu1 ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: red;
+background-color: black;
+}
+
+#menu1 ul li a:hover
+{
+color:black;
+background-color:d8d8d8;
+
+}
+#middlebg
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	padding-left:0px;
+	padding-top:0px;
+	width: 100px;
+	height:0px;
+	z-index: 2;
+	opacity:0.4;
+}
+
+#bg1
+{
+	position: absolute ;
+	top: 60px;
+	left:260px;
+	width: 1000px;
+	height:0px;
+	z-index:200;
+}
+#goldlogo
+{
+	position: absolute ;
+	top: 150px;
+	left:40px;
+	width: 1000px;
+	height:0px;
+	z-index:200;
+	opacity:0.8;
+}
+#selo
+{
+	position: absolute ;
+	top: 430px;
+	left:30px;
+	width: 1000px;
+	height:0px;
+	z-index:200;
+	opacity:0.8;
+}
+#light
+{
+	position: absolute ;
+	top: 15px;
+	left:0px;
+	width: 1000px;
+	height:0px;
+	z-index:180;
+	opacity:0.1px;
+}
+#entrega
+{
+	position: absolute ;
+	top: 300px;
+	left:30px;
+	width: 1000px;
+	height:0px;
+	z-index:200;
+	opacity:0.8;
+}
+
+#bg
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	padding-left: 475px;
+	padding-top:155px;
+	width: 1000px;
+	height:0px;
+	z-index: 2;
+}
+
+#foto1
+{
+	position: absolute;
+	top: 70px;
+	left:450px;
+	padding-left: 0px;
+	width: 2000px;
+	height:0px;
+	z-index: 15;
+}
+#foto2
+{
+	position: absolute;
+	top: 250px;
+	left: 40px;
+	width: 150px;
+	height: 100px;
+	z-index: 20;
+}
+#foto3
+{
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	width: 150px;
+	height: 100px;
+	z-index: 30;
+}
+#foto4
+{
+	position: absolute;
+	top: 250px;
+	left: 40px;
+	width: 150px;
+	height: 100px;
+	z-index: 22;
+}
+#cl1
+{
+	position: absolute;
+	top: 320px;
+	left: 70px;
+	width: 150px;
+	height: 100px;
+	z-index: 25;
+}
+#cl2
+{
+	position: absolute;
+	top: 0px;
+	left: 45px;
+	width: 150px;
+	height: 0px;
+	z-index: 26;
+}
+#foto2
+{
+	position: absolute;
+	top: 360px;
+	left: 200px;
+	width: 150px;
+	height: 100px;
+	z-index: 15;
+}
+#cl3
+{
+	position: absolute;
+	top: 375px;
+	left: 600px;
+	font-family: old english;
+
+	font-size:32px;
+	color: yellow;
+	width: 170px;
+	height: 100px;
+	z-index: 16;
+}
+#cl4
+{
+	position: absolute;
+	background-color: white;
+	top: 5px;
+	left: 408px;
+	width: 530px;
+	height: 33px;
+	z-index: 3;
+}
+
+
+#bla
+{
+	position: absolute;
+	top: 350px;
+	left: 10px;
+	font-size: 30;
+	font-weight:500
+	font-family: arial;
+	background-color:purple;
+	color: black;
+	width: 450px;
+	height: 100px;
+	z-index:0;
+	opacity: 0.9;
+	}
+

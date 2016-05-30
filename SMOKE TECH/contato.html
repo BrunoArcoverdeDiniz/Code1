@@ -1,0 +1,110 @@
+
+<html >
+
+<head>
+	<title>Contato</title>
+	
+	<link rel="stylesheet" type="text/css" href="contato.css" />
+    <meta charset="UTF-8">
+</head>
+
+<body background="black2.gif">
+<div class="log"><a href="canvas.html">* Para editar cadastro existente faca o LOGIN na pagina de inico
+</a></div>
+
+<div id="bg"><img src="fire-5.jpg" width="200">	</div>
+<div id="foto1"><img src="S.png" width="110"></div>
+<div id="middlebg"><img src="middle bg.gif" width="1000"></div>
+<!--<div id="search"><img src="searchbutton.jpg" width="30"></div>-->
+<div id="cl4"></div>	
+		<div id="menu1">
+			<ul>
+				<li><a href="canvas.html">Inicio</a></li>
+				<li><a href="ecigs page.html">E-cigs</a></li>
+				<li><a href="atomizadores.html">Atomizadores</a></li>
+				<li><a href="eliquidos.html">E-Liquidos</a></li>
+				<li><a href="contato.html">Cadastro</a></li>
+			</ul>
+		</div>
+
+  
+   
+<div id="form">
+<form action="contatoinsert.php"method="post">
+<fieldset>
+	
+        <fieldset class="grupo">
+            <div class="campo">
+                <br><br><br><label for="nome"><b>Nome</b></label>
+                <input type="text" id="nome" name="nome" style="width: 12em" >
+            </div>
+            <div class="campo">
+                <br><br><br><label for="sobrenome"><b>Sobrenome</b></label>
+                <input type="text" id="sobrenome" name="sobrenome" style="width: 12em" >
+            </div>
+                <div class="campo">
+                <br><br><br><label for="cpf"><b>cpf</b></label>
+                <input type="number" id="cpf" name="cpf" style="width: 12em" placeholder="EX: 00000000000" >
+            </div>
+        </fieldset>
+        
+        <div class="campo">
+            <label for="telefone"><b>Telefone</b></label>
+            <input type="number" id="telefone" name="telefone" style="width: 25em" placeholder="EX: 000000000" >
+        </div><b>        
+        <div class="campo">
+            <label for="email"><b>E-mail</b></label>
+            <input type="email" id="email" name="email" style="width: 25em" placeholder="EX: abcdef@hot.com" >
+        </div><b>
+       
+
+        <div class="campo">
+            <label for="endereco"><b>Endere&#231;o</b></label>
+            <input type="text" id="endereco" name="endereco" style="width: 35em" >
+        </div><b>
+ 
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="cep"><b>CEP</b></label>
+                <input type="number" id="cep" name="cep" style="width: 10em" placeholder="EX: 00000000" >
+            </div>            
+            <div class="campo">
+                <label for="cidade"><b>Cidade</b></label>
+                <input type="text" id="cidade" name="cidade" style="width: 10em" >
+            </div>
+            <div class="campo">
+                <label for="estado"><b>Estado</b></label>
+                <select name="estado" id="estado">
+                    <option value=""></option>
+                    <option value="PR">PR</option>
+                	<option value="PR">RJ</option>
+                	<option value="PR">SP</option>
+                	<option value="PR">MG</option>
+                	<option value="PR">RS</option>
+                	<option value="PR">AM</option>
+                	<option value="PR">AC</option>
+                	<option value="PR">AL</option>
+                	<option value="PR">DF</option>
+                	<option value="PR">MS</option>
+                	<option value="PR">RO</option>
+                	<option value="PR">RR</option>
+                	<option value="PR">SC</option>
+
+
+                </select>
+            </div>
+        </fieldset>
+ 
+        <div class="campo">
+            <label for="pedido"><b>Pedido </b></label>
+            <textarea rows="3" style="width: 40em" id="pedido" name="pedido"></textarea>
+        </div>
+        <input type="submit" name="mandar">
+
+
+</form>
+</div>
+
+</body>
+
+</html>
